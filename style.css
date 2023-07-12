@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    width: 100%;
+}
+ div {
+    width: calc(33% - 42px);
+    float: left;
+    margin: 10px 10px 30px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 10%;
+ }
+
+ div > h2 {
+    border-bottom: 1px solid gainsboro;
+ }
+
+ h2 {
+    padding-bottom: 15px;   
+ }
+
+ div > p {
+    text-align: center;
+    width: 200px;
+    margin-left: 130px;
+ }
+
+ div > a {
+    border: 1px solid rgb(13, 82, 231);
+    border-radius: 10%;
+    background-color: rgb(13, 82, 231);
+    text-decoration: none;
+    color: white;
+ }
+ 
+ 
